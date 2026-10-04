@@ -25,7 +25,6 @@ body {
 .frame1box {
     width: 100%;
     max-width: 1104px;
-    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -36,7 +35,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 552px;
-    max-width: 100%;
     gap: 20px;
 }
 
@@ -65,24 +63,20 @@ body {
     color: rgba(255, 255, 255, 1);
     line-height: 28px;
     width: 504px;
-    max-width: 100%;
 }
 
 .button {
     width: 536px;
-    max-width: 100%;
-    min-height: 48px;
+    height: 48px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 16px;
     margin-top: 10px;
 }
 
 .button1 {
     width: 167.66px;
-    max-width: 100%;
-    min-height: 48px;
+    height: 48px;
     background-color: rgba(236, 224, 206, 1);
     color: rgba(3, 54, 61, 1);
     font-family: Arial, sans-serif;
@@ -106,20 +100,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 145.26px;   
-    max-width: 100%;
-    min-height: 48px;
+    height: 48px;
 }
 
 .frame1img {
     width: 379px;
-    max-width: 100%;
-    height: auto;
+    height: 512px;
     display: flex;
-}
-
-.frame1img img {
-    max-width: 100%;
-    height: auto;
 }
 
 .logo-bar-wrapper {
@@ -133,7 +120,6 @@ body {
 .logo-bar {
     width: 100%;
     max-width: 1440px;
-    padding: 0 20px;
     display: flex;
     justify-content: center;
     background-color: #FFFFFF;
@@ -141,13 +127,13 @@ body {
 
 .logo-bar img {
     width: 100%;
-    max-width: 1088px;
+    max-width:1088px;
     height: auto;
 }
 
 .frame2 {
     width: 100%;
-    min-height: 642px;
+    height:642px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column; 
@@ -158,7 +144,6 @@ body {
 .frame2header {
     width: 100%;
     max-width: 736px;
-    padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,7 +172,6 @@ body {
 .frame2card {
     width: 100%;
     max-width: 1104px;
-    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -201,7 +185,6 @@ body {
 
 .frame2card1 {
     width: 352px;
-    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,7 +193,6 @@ body {
 
 .frame2card1 .text {
     width: 287.42px;
-    max-width: 100%;
     text-align: center;
     font-weight: 400;
     line-height: 24px;
@@ -221,7 +203,6 @@ body {
 
 .frame2card1 .text2 {
     width: 291.87px;
-    max-width: 100%;
     text-align: center;
     font-weight: 400;
     line-height: 24px;
@@ -232,7 +213,6 @@ body {
 
 .frame2card1 .text3 {
     width: 290px;
-    max-width: 100%;
     text-align: center;
     font-weight: 400;
     line-height: 24px;
@@ -254,14 +234,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    min-height: 575px;
-    padding: 80px 0;
+    height: 575px;
 }
 
 .frame3box {
     width: 100%;
     max-width: 1104px;
-    padding: 0 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -271,14 +249,13 @@ body {
 
 .frame3img {
     width: 444px;
-    max-width: 100%;
-    height: auto;
+    height: 444px;
     flex-shrink: 0;
 }
 
 .frame3img img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -286,7 +263,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 552px;
-    max-width: 100%;
     gap: 16px;
 }
 
@@ -314,7 +290,6 @@ body {
     line-height: 24px;
     color: #17494D;
     width: 489px;
-    max-width: 100%;
 }
 
 .link-box {
@@ -360,19 +335,13 @@ body {
     justify-content: space-between;
     width: 100%;
     max-width: 1088px;
-    padding: 40px 48px;
-    gap: 24px;
+    height: 299px;
+    padding: 0 48px;
 }
 
 .frame4img {
     width: 168px;
-    max-width: 100%;
-    height: auto;
-}
-
-.frame4img img {
-    max-width: 100%;
-    height: auto;
+    height: 168px;
 }
 
 .frame4content {
@@ -397,7 +366,6 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     width: 542.8250122070312px;
-    max-width: 100%;
 }
 
 .frame4button {
@@ -410,12 +378,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
 }
 
 .frame5 {
     width: 100%;
-    min-height: 497.984375px;
+    height: 497.984375px;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: center;
@@ -425,16 +392,15 @@ body {
 .frame5box {
     width: 100%;
     max-width: 1104px;
-    padding: 0 20px;
+    height: 369.984375px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
 }
 
 .frame5content {
     width: 552px;
-    max-width: 100%;
+    height: 250px;   
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -468,14 +434,8 @@ body {
 .frame5box .img {
     width: 100%;
     max-width: 444px;
-    height: auto;
+    height: 369.984375px;
 }
-
-.frame5box .img img {
-    width: 100%;
-    height: auto;
-}
-
 .frame3box .link-text {
     font-family: Arial, sans-serif;
     font-weight: 700;
@@ -484,7 +444,6 @@ body {
     border-bottom: 2px solid rgba(23, 73, 77, 0.1);
     padding-bottom: 2px;
 }
-
 .frame5box .link-text {
     font-family: Arial, sans-serif;
     font-weight: 700;
@@ -493,10 +452,9 @@ body {
     border-bottom: 2px solid rgba(23, 73, 77, 0.1);
     padding-bottom: 2px;
 }
-
 .frame6 {
     width: 100%;
-    min-height: 658px;
+    height: 658px;
     background-color: rgba(248, 249, 249, 1);
     display: flex;
     justify-content: center;
@@ -506,7 +464,7 @@ body {
 .frame6box {
     width: 100%;
     max-width: 1088px;
-    padding: 0 20px;
+    height: 530px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -514,7 +472,7 @@ body {
 
 .frame6box .header {
     width: 736px;
-    max-width: 100%;
+    height: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -540,13 +498,12 @@ body {
 }
 
 .frame6card {
-    width: 100%;
-    max-width: 1104px;
+    width: 1104px;
+    height: 356px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 48px;
 }
 
 .frame6card .img {
@@ -555,16 +512,16 @@ body {
 }
 
 .frame6card .card {
-    width: 100%;
+    width: 1104px;
+    height: 356px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card1 {
     width: 536px;
-    max-width: 100%;
+    height: 356px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -588,12 +545,10 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     width: 482.90313720703125px;
-    max-width: 100%;
 }
-
 .card2 {
     width: 536px;
-    max-width: 100%;
+    height: 356px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -617,28 +572,22 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     width: 485.49688720703125px;
-    max-width: 100%;
-    padding-bottom: 24px;
+    padding-bottom:24px;
 }
-
-.frame7 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.frame7{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     padding: 80px 0;
 }
-
-.frame7box {
-    width: 100%;
-    max-width: 1104px;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.frame7box{
+    width:1104px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
-
 .frame7header {
     width: 100%;
     max-width: 736px;
@@ -647,7 +596,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 16px;
+    gap:16px;
 }
 
 .frame7header .tagline {
@@ -659,45 +608,33 @@ body {
     letter-spacing: 2px;
     text-align: center;
 }
-
-.frame7header .title {
-    font-family: Arial, sans-serif;
-    font-weight: 700;
-    font-size: 43px;
-    line-height: 56px;
-    color: rgba(3, 54, 61, 1);
+.frame7header .title{
+    font-family:Arial, sans-serif;
+    font-weight:700;
+    font-size:43px;
+    line-height:56px;
+    color:rgba(3, 54, 61, 1);
 }
-
-.frame7content {
-    width: 100%;
-    max-width: 1088px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.frame7content{
+    width:1088px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
-
-.frame7content .business {
-    width: 100%;
-    max-width: 1088px;
-    padding-top: 80px;
+.frame7content .business{
+    width:1088px;
+    padding-top:80px;
 }
-
-.frame7content .business img {
-    max-width: 100%;
-    height: auto;
-}
-
 .frame7main {
     width: 720px;
-    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24px; 
     margin-top: 48px;
-    padding-bottom: 80px;
+    padding-bottom:170px;
 }
 
 .frame7main .slogan {
@@ -708,8 +645,7 @@ body {
     text-align: center;
     font-weight: 400;
     width: 472px;
-    max-width: 100%;
-    padding-top: 40px;
+    padding-top:100px;
 }
 
 .frame7person {
@@ -736,17 +672,14 @@ body {
     color: rgba(23, 73, 77, 1);
     line-height: 18px;
 }
-
 .stats-grid {
     width: 100%;
-    max-width: 490.65625px;
+    max-width:490.65625px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 48px;
-    gap: 16px;
 }
 
 .stat-item {
@@ -763,7 +696,6 @@ body {
     line-height: 40px;
     color: rgba(3, 54, 61, 1);
 }
-
 .stat-item .label {
     font-family: Arial, sans-serif;
     font-weight: 400;
@@ -771,46 +703,40 @@ body {
     line-height: 100%;
     color: rgba(23, 73, 77, 1);
 }
-
-.Zendesk {
-    background-color: rgba(88, 112, 82, 1);
-    width: 100%;
-    min-height: 572px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 64px 0;
+.Zendesk{
+    background-color:rgba(88, 112, 82, 1);
+    width:100%;
+    height:572px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-
-.Zendeskbox {
-    width: 100%;
-    max-width: 1104px;
-    padding: 0 20px;
-    display: flex;
-    gap: 16px;
-    justify-content: space-between;
-    align-items: center;
+.Zendeskbox{
+    width:100%;
+    max-width:1104px;
+    height:444px;
+    display:flex;
+    gap:16px;
+    justify-content:space-between;
+    align-items:center;
 }
-
-.Zendeskcontent {
-    width: 552px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
+.Zendeskcontent{
+    width:552px;
+    height:128px;
+    display:flex;
+    flex-direction:column;
+    
 }
-
-.inAction {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-size: 43px;
-    line-height: 56px;
-    font-family: Arial, sans-serif;
+.inAction{
+    color:rgba(255, 255, 255, 1);
+    font-weight:700;
+    font-size:43px;
+    line-height:56px;
+    font-family:Arial, sans-serif;
 }
-
 .button3 {
     width: 171.1875px;
-    max-width: 100%;
-    min-height: 48px;
+    height: 48px;
     background-color: rgba(236, 224, 206, 1);
     color: rgba(3, 54, 61, 1);
     font-family: Arial, sans-serif;
@@ -820,6 +746,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .button4 {
@@ -834,20 +761,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 167.65625px;   
-    max-width: 100%;
-    min-height: 48px;
+    height: 48px;
 }
-
-.contact .img {
-    width: 444px;
-    max-width: 100%;
-    height: auto;
-    display: flex;
-}
-
-.contact .img img {
-    max-width: 100%;
-    height: auto;
+.contact .img{
+    width:444px;
+    height:444px;
+    display:flex;
 }
 
 .footer {
@@ -862,7 +781,6 @@ body {
 .footer-box {
     width: 100%;
     max-width: 1104px;
-    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 64px;
@@ -878,10 +796,10 @@ body {
 
 .footer-brand {
     width: 184px;
-    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    
 }
 
 .footer-brand .brand-logo {
@@ -897,13 +815,12 @@ body {
     line-height: 28px;
     color: rgba(3, 54, 61, 1);
     width: 127px;
-    max-width: 100%;
 }
 
 .footer-columns {
     display: flex;
     justify-content: space-between;
-    gap: 13px;
+    gap:13px;
     flex-grow: 1;
     margin-top: 48px;
 }
@@ -912,8 +829,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    width: 184px;
-    max-width: 100%;
+    width:184px;
 }
 
 .footer-col .col-title {
@@ -952,15 +868,13 @@ body {
     display: flex;
     align-items: center;
     gap: 32px;
-    flex-wrap: wrap;
 }
 
 .newsletter-text {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    width: 260px;
-    max-width: 100%;
+    width:260px;
 }
 
 .newsletter-text .title {
@@ -983,17 +897,16 @@ body {
     display: flex;
     align-items: center;
     gap: 0;
-    max-width: 100%;
 }
 
 .newsletter-form input {
     width: 309.84375px;
-    max-width: 100%;
     height: 48px;
     padding: 0 16px;
     background-color: rgba(248, 249, 249, 1);
     border: 1px solid rgba(104, 115, 125, 1);
     border-right: none;
+    
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: rgba(3, 54, 61, 1);
@@ -1005,8 +918,7 @@ body {
 }
 
 .newsletter-form button {
-    width: 134.15625px;
-    max-width: 100%;
+    width:134.15625px;
     height: 48px;
     padding: 0 24px;
     background-color: rgba(23, 73, 77, 1);
@@ -1020,7 +932,6 @@ body {
 .social-media img {
     height: 32px;
     width: 232px;
-    max-width: 100%;
     display: block;
 }
 
@@ -1033,13 +944,11 @@ body {
     font-size: 12px;
     line-height: 18px;
     color: #17494D;
-    flex-wrap: wrap;
 }
 
 .footer-bottom .legal-links {
     display: flex;
     gap: 16px;
-    flex-wrap: wrap;
 }
 
 .footer-bottom .legal-links a {
@@ -1053,39 +962,4 @@ body {
 
 .footer-bottom .copyright {
     color: #17494D;
-}
-
-@media (max-width: 992px) {
-    .frame1box,
-    .frame3box,
-    .frame4box,
-    .frame5box,
-    .Zendeskbox,
-    .footer-top,
-    .footer-middle {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .frame2card,
-    .frame6card,
-    .frame6card .card,
-    .footer-columns {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .footer-columns {
-        margin-top: 32px;
-    }
-
-    .newsletter-block {
-        justify-content: center;
-    }
-
-    .newsletter-text {
-        text-align: center;
-    }
 }
